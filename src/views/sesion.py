@@ -23,7 +23,7 @@ def main(page: ft.Page):
     page.add(
         ft.Column(
             [
-                ft.Text("Login", size=30),
+                ft.Text("Inicio de sesion", size=30, color="blue"),  # 👈 SOLO AQUÍ SE AÑADIÓ COLOR
                 usuario,
                 password,
                 boton_login,
